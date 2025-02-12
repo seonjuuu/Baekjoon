@@ -1,7 +1,6 @@
 #1 : Hello world! 출력하기'
 print("Hello World!")
 
-
 #2 -> 입력받기 : input() /  / split() : 띄어쓰기를 기준으로 구분 
 # -> A,B = int(input().split()) -> 불가능 -> 이유 : int 함수는 리스트를 정수형으로 바꿔줄수없음 -> map함수 사용
 # map -> map(각요소에 적용할 함수, 함수를 적용할 데이터집합) -> 정수로 변환 : map(int,input(),split())
