@@ -8,7 +8,6 @@ else:                    #elif(A==B) -> 같다(==)
     print("==")
     
 
-
 #2
 score = int(input())
 if(90 <= score <=100) :
@@ -23,7 +22,6 @@ else:
     print("F")
     
 
-
 #3
 year = int(input())
 if(year%4 == 0):
@@ -33,7 +31,6 @@ if(year%4 == 0):
         print("0")
 else:
     print("0")
-
 
 
 #4 
