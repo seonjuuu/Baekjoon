@@ -33,6 +33,7 @@ else:
     print("0")
 
 
+
 #4 
 x = int(input())
 y = int(input())
@@ -48,6 +49,7 @@ else:
         print("3")
 
 
+
 #5 
 H,M = map(int,input().split())
 if(M<45):
@@ -57,6 +59,7 @@ if(M<45):
         H = H-1
     M = M+60
 print(H, M-45)
+
 
 
 #6
@@ -73,6 +76,7 @@ else:
 print(A,B)
 
 
+
 #7
 A,B,C = map(int,input().split())
 if(A==B and B==C):
@@ -85,6 +89,7 @@ else:                      #같은 눈이 2개
         print(1000+A*100)
     else:                   #B와C가같은경우    
         print(1000+B*100)
+        
 
 #7-1     
 a, b, c = map(int, input().split())
