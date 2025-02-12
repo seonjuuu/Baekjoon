@@ -1,4 +1,3 @@
-'''
 #1
 A,B = map(int,input().split())
 if(A>B):
@@ -75,7 +74,7 @@ else:
     B = B+C
     
 print(A,B)
-'''
+
 
 #7
 A,B,C = map(int,input().split())
