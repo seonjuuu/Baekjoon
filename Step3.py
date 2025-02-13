@@ -83,3 +83,12 @@ while(1):
     if(A==0 and B==0):
         break
     print(A+B)
+    
+    
+#12 -> while - try - excpet 문
+while True:
+    try:
+        A,B = map(int,input().split())
+        print(A+B)
+    except:
+        break
