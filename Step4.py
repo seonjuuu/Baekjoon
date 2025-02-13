@@ -27,3 +27,14 @@ for i in range(9):
     A.append(a)
 print(max(A))
 print(A.index(max(A))+1)
+
+
+#5
+N,M = map(int, input().split())
+A= [0]*N
+for X in range(M):
+    i,j,k = map(int,input().split())
+    for x in range(i-1,j):
+        A[x] = k
+for i in range(len(A)):
+    print(A[i], end=" ")
