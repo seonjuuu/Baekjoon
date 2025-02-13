@@ -52,3 +52,17 @@ for x in range(M):
     A[j-1] = tamp
 for i in range(N):
     print(A[i], end=' ')
+    
+    
+#7 -> remove 함수 이용
+# A에서 k원소들을 다 제거하고 남은 원소들의 최소, 최대값
+N = 30
+M = 28
+A = []
+for i in range(N):
+    A.append(i+1)
+for i in range(M):
+    k = int(input())
+    A.remove(k)
+print(min(A))
+print(max(A))
