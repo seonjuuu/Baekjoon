@@ -66,3 +66,12 @@ for i in range(M):
     A.remove(k)
 print(min(A))
 print(max(A))
+
+
+#8 ->  not in arr 
+A = []
+for i in range(10):
+    k = int(input())
+    if k%42 not in A:
+        A.append(k%42)
+print(len(A))
