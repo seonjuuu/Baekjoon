@@ -30,3 +30,12 @@ if(X==sum):
     print("Yes")    
 else:
     print("No")
+    
+
+#5 -> 몫을 정수형 : // -> N//4만큼 앞에 long이 붙음
+N = int(input())
+bite = ''
+for i in range(N//4):
+    bite += "long "     
+bite = bite + 'int'
+print(bite)
