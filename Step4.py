@@ -75,3 +75,27 @@ for i in range(10):
     if k%42 not in A:
         A.append(k%42)
 print(len(A))
+
+
+#9
+N, M = map(int,input().split())
+A=[]
+for i in range(N):
+   A.append(i+1) 
+for x in range(M):
+    i,j = map(int,input().split())
+    A[i-1:j] = A[i-1:j][::-1]
+for i in A:
+    print(i, end=' ')
+    
+## 다른방법 tamp을 이용하여 슬라이싱
+n,m = map(int, input().split())
+list = [i for i in range(1,n+1)]
+temp = 0
+for x in range(m):
+  i,j = map(int, input().split())
+  temp = list[i-1:j]
+  temp.reverse()
+  print(temp)
+  list[i-1:j] = temp
+  
