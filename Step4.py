@@ -98,4 +98,13 @@ for x in range(m):
   temp.reverse()
   print(temp)
   list[i-1:j] = temp
-  
+
+
+#10 -> 입력받는원소들의 변수명을 지정하지 말고(갯수(N)가 다르기 떄문) -> A = list(map(int, input().split())) 
+N = int(input())
+A = list(map(int, input().split()))
+m = max(A)
+for i in range(N):
+    A[i] = A[i]/m*100
+
+print(sum(A)/N)
