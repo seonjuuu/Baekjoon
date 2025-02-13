@@ -38,3 +38,17 @@ for X in range(M):
         A[x] = k
 for i in range(len(A)):
     print(A[i], end=" ")
+    
+    
+#6
+N, M=map(int, input().split())
+A = []
+for i in range(N):
+    A.append(i+1)
+for x in range(M):
+    i,j = map(int, input().split())
+    tamp = A[i-1]
+    A[i-1] = A[j-1]
+    A[j-1] = tamp
+for i in range(N):
+    print(A[i], end=' ')
