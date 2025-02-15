@@ -67,3 +67,10 @@ for i in range(T):
 S = input().split() #공백을 기준으로 분리
 print(S)            #['문자','문자', , , ] 형태
 print(len(S))       #리스트의 갯수로, 문자가 몇개인지
+
+
+#9 정수형은 인덱스로 사용 x -> 문자열형태에서 앞뒤를 바꿔주고, 정수형으로 바꿔서 비교
+A,B= input().split()
+res_A = A[::-1]        #[::-1] 역순 
+res_B = B[::-1]
+print(max(int(res_A),int(res_B)))
