@@ -74,3 +74,42 @@ A,B= input().split()
 res_A = A[::-1]        #[::-1] 역순 
 res_B = B[::-1]
 print(max(int(res_A),int(res_B)))
+
+
+#10 문자열은 ==, != 로 비교X -> in or not in으로!
+#방법 1
+S = input()
+time = 0
+
+for i in S:
+    if i in "ABC":   #i가 ABC중에 있다면
+        time += 3
+    elif i in "DEF":
+        time += 4
+    elif i in "GHI":
+        time += 5
+    elif i in "JKL":
+        time += 6
+    elif i in "MON":
+        time += 7
+    elif i in "PQRS":
+        time += 8
+    elif i in "TUV":
+        time += 9
+    elif i in "WXYZ":
+        time += 10
+    else:
+        time += 11
+print(time)
+
+#방법2 
+#리스트이용
+list = ["ABC","DEF","GHI","JKL","MNO","PQRS","TUV","WXYZ"]
+S = input()
+time = 0
+
+for i in range(len(S)):    #S문자열에서 문자하나씩
+    for j in list:         #리스트에서 문자열하나씩
+        if S[i] in j :     #S의 문자가 문자열에 들어간다면
+            time += list.index(j)+3 #해당 문자열의 인덱스값(번호값)+3(기본3초추가)
+print(time)
