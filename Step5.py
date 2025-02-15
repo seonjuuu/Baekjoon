@@ -61,3 +61,9 @@ for i in range(T):
     for x in range(len(S)):
         print(S[x]*R, end='')
     print("")    # 줄넘김
+    
+    
+#8 -> split 함수 이용
+S = input().split() #공백을 기준으로 분리
+print(S)            #['문자','문자', , , ] 형태
+print(len(S))       #리스트의 갯수로, 문자가 몇개인지
