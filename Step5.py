@@ -32,3 +32,13 @@ sum = 0
 for i in range(N):
     sum += int(S[i])
 print(sum)
+
+
+#6
+S = input()
+C = 'abcdefghijklmnopqrstuvwxyz'
+for i in C:
+    if i in S :          #만약 S안에 i가 들어있다면
+        print(S.index(i), end=' ')
+    else:
+        print(-1,end=' ')
