@@ -113,3 +113,13 @@ for i in range(len(S)):    #S문자열에서 문자하나씩
         if S[i] in j :     #S의 문자가 문자열에 들어간다면
             time += list.index(j)+3 #해당 문자열의 인덱스값(번호값)+3(기본3초추가)
 print(time)
+
+
+#11
+import sys
+
+while True:
+    try:
+        print(input())
+    except EOFError:
+        break
