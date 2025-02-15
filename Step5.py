@@ -23,3 +23,12 @@ print(ord('A'))
 print(ord('9'))  # 9를 숫자가 아닌 문자로 받아서, 그의 아스키 코드를 반환
 S = input()
 print(ord(S))
+
+
+#5
+N = int(input())
+S = input()
+sum = 0
+for i in range(N):
+    sum += int(S[i])
+print(sum)
