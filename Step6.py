@@ -29,3 +29,11 @@ for i in range(1,N+1):
 # 별의 개수가 감소하는 부분
 for i in range(N-1,-0,-1):
     print(" " * (N-i) + "*" * (2*i-1))
+    
+    
+#4 
+A = input()
+if A == A[::-1]:
+    print("1")
+else:
+    print("0")
