@@ -80,3 +80,19 @@ word = input()
 for i in croatia :
     word = word.replace(i, '*')  # input 변수와 동일한 이름의 변수
 print(len(word))
+
+
+#7
+n = int(input())
+cnt = n
+
+for _ in range(n) :  #단어를 받는 for문
+    word = input()   
+    for i in range(len(word)-1) :  #한단어의 알파벳을 확인하는 for문
+        if word[i] == word[i+1] :
+            pass
+        elif word[i] in word[i+1:] :  #word[i+1:]:범위 / 뒷문자와 같지 않은데, 뒷 범위에 똑같은 문자가 등장하는 경우 -> 그룹단어가 아닌경우
+            cnt -= 1
+            break   #제일 가까이 있는 for문만 벗어남 
+
+print(cnt)
