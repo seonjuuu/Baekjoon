@@ -37,3 +37,21 @@ if A == A[::-1]:
     print("1")
 else:
     print("0")
+    
+    
+#5
+A = input()
+A = A.upper()
+B = []
+C = []
+for i in range(len(A)):
+    if A[i] not in B:
+        B.append(A[i])
+for i in range(len(B)):
+    k = A.count(B[i])
+    C.append(k)
+max = max(C)    #C에서 max의 갯수가 2개 이상이면 ->?
+if C.count(max) >= 2 :
+    print("?")
+else:
+    print(B[C.index(max)])
