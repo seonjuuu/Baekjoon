@@ -70,6 +70,7 @@ for k in range(100):  # 전체 도화지를 돌면서
 print(result)
 
 
+
 ##4(2)
 N = int(input()) #색종이 개수
 array = []
