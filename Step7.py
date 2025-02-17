@@ -17,6 +17,7 @@ for row in range(N):
     print() #행을 나눔
     
     
+    
 #2
 A = []
 
@@ -34,3 +35,18 @@ for row in range(9):
             maxcol = col
 print(max)
 print(maxrow+1, maxcol+1)
+
+
+
+#3
+# 행의 길이 = 열 -> len(행) = 열의 갯수
+# A = [input() for i in range(5)]
+A = []
+for i in range(5):
+    row = list(input())  #split() 할 필요 X(띄어쓰기 안한다고함)
+    A.append(row)
+    
+for col in range(15):
+    for row in range(5):
+        if col < len(A[row]):   ## 열의 인덱스가 행의 길이보다 짧으면 출력
+            print(A[row][col],end='')
