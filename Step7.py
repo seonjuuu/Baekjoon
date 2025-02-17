@@ -68,3 +68,22 @@ for k in range(100):  # 전체 도화지를 돌면서
     result += array[k].count(1)  # 1 개수만 세어준다
 
 print(result)
+
+
+##4(2)
+N = int(input()) #색종이 개수
+array = []
+for _ in range(100):
+    array.append([0]*100)
+
+for _ in range(N):
+    x, y = map(int, input().split())
+    
+    for i in range(x,x+10):
+        for j in range(y,y+10):
+            array[i][j] = 1
+            
+sum = 0
+for i in range(100):
+    sum += array[i].count(1)
+print(sum)
