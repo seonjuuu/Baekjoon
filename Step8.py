@@ -31,3 +31,13 @@ for _ in range(T):
 	for i in [25, 10, 5, 1]:
 		print(money//i, end=' ')
 		money = money%i
+  
+  
+#4
+#한변에 점이 몇개 있는지 
+# 입력
+n = int(input())
+
+# 점의 개수 계산
+side = (1 + 2**n)  #한변을 기준으로 늘어나는 규칙
+print(side**2)     #총점의 갯수는, 변의 점개수의 제곱
