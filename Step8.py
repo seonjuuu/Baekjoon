@@ -61,3 +61,30 @@ while(N > nummax):
     cnt += 1                 #칸수 증가
     
 print(cnt)
+
+
+#6
+# 규칙 
+# 짝수 라인 : 분모가 1씩 늘어나고 분자가 1씩 줄어듦
+# 홀수 라인 : 분자가 1씩 늘어나고 분모가 1씩 줄어듦
+# 1. 줄과, 그 줄에서의 몇번째인지 찾기
+# 2. 그 줄이 짝수줄인지, 홀수줄인지
+# 3.
+
+num = int(input())
+line = 1            # 줄
+
+while num > line:   # 줄과 번째알아내기
+    num -= line
+    line += 1
+    
+# 짝수일경우
+if line % 2 == 0:
+    a = num
+    b = line - num + 1
+# 홀수일경우
+elif line % 2 == 1:
+    a = line - num + 1
+    b = num
+
+print(f'{a}/{b}')
