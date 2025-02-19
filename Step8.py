@@ -88,3 +88,14 @@ elif line % 2 == 1:
     b = num
 
 print(f'{a}/{b}')
+
+
+#7
+#시간 제한이 있는 문제 -> 반복문 사용 X
+A, B, V = map(int, input().split())
+
+x = (V-B)/(A-B)   # x = 도달하는 날
+if x == int(x):   # x가 정수라면 달팽이는 x일에 다 올라간것
+    print(int(x))
+else:                   # 그렇지 않다면, 달팽이는 하루 더 지나서 나무막대에 다 올라간ㄴ것
+    print(int(x) + 1)
