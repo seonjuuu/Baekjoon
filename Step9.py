@@ -54,3 +54,29 @@ for i in A :
     if len(B) == 1 :
         cnt += 1
 print(cnt)
+
+
+
+#5
+M = int(input())
+N = int(input())
+
+num = []
+result = []
+for i in range(M,N+1):
+    num.append(i)
+
+for i in num :
+    A = []
+    for k in range(1,i):
+        if i%k == 0:
+            A.append(k)
+    if len(A) == 1:
+        result.append(i)
+
+if len(result) > 0 :
+    print(sum(result))
+    print(min(result))
+
+else:
+    print("-1")
