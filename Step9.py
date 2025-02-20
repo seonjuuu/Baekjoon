@@ -80,3 +80,16 @@ if len(result) > 0 :
 
 else:
     print("-1")
+    
+    
+#6
+#소수리스트 따로 구할 필요 X
+#어짜히 앞에서부터 나누기 때문에 소수 아닌 수들로 나눠질 수가 없음
+N = int(input())
+A = []
+for i in range(2,N+1):
+    if N==1:
+        break
+    while(N%i == 0):  # 같은 수로 계속 나누기
+        print(i)
+        N = N//i
