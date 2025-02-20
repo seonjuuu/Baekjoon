@@ -38,3 +38,19 @@ while(1):
         print(n,' = '," + ".join(str(i) for i in A), sep="")
     else:
         print(n,"is NOT perfect.")
+        
+        
+        
+#4
+N = int(input())
+N = int(input())
+A = list(map(int,input().split()))
+cnt = 0
+for i in A :
+    B = []
+    for k in range(1,i):
+        if i%k == 0:
+            B.append(k)
+    if len(B) == 1 :
+        cnt += 1
+print(cnt)
