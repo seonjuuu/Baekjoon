@@ -9,3 +9,16 @@ while(1):
         print("multiple")
     else:
         print("neither")
+        
+        
+#2
+N, k = map(int,input().split())
+A = []
+for i in range(1,N+1):
+    if (N%i == 0):
+        A.append(i)
+
+if (len(A) >= k):
+    print(A[k-1])
+else:
+    print("0")
