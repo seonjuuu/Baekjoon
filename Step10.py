@@ -15,3 +15,8 @@ for i in range(3):
     x,y = map(int,input().split())
     X.append(x)
     Y.append(y)
+    
+for x in X :
+    if X.count(x) == 1:
+        print(x, end=" ")
+        break
