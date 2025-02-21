@@ -11,3 +11,7 @@ print(min(dis))
 #3 -> x좌표, y좌표 수가 2개씩
 X = []
 Y = []
+for i in range(3):
+    x,y = map(int,input().split())
+    X.append(x)
+    Y.append(y)
