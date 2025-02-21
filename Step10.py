@@ -20,3 +20,8 @@ for x in X :
     if X.count(x) == 1:
         print(x, end=" ")
         break
+    
+for y in Y :
+    if Y.count(y) == 1:
+        print(y)
+        break
