@@ -48,3 +48,10 @@ print((max(X)-min(X))*(max(Y)-min(Y)))
 a = int(input())
 b = int(input())
 c = int(input())
+if a+b+c == 180:
+    if a==b==c==60 :
+        print("Equilateral")
+    else:
+        print("Scalene")
+else:
+    print("Error")
