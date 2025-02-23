@@ -42,3 +42,9 @@ for i in range(N):
     Y.append(y)
     
 print((max(X)-min(X))*(max(Y)-min(Y)))
+
+
+#6
+a = int(input())
+b = int(input())
+c = int(input())
