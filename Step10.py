@@ -25,3 +25,8 @@ for y in Y :
     if Y.count(y) == 1:
         print(y)
         break
+    
+
+#4
+n = int(input())
+print(n*4)
