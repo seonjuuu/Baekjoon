@@ -79,3 +79,8 @@ if (max(t) >= sum(t)-max(t)):
     t.remove(max(t))
     t.append(sum(t)-1)
 print(sum(t))
+#코드2
+t = list(map(int,input().split()))
+t.sort()
+res = t[0] + t[1] + min(t[2], t[0]+t[1]-1)
+print(res)
