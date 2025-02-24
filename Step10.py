@@ -71,6 +71,7 @@ while(1):
         print("Isosceles")
     else :
         print("Scalene")
+       
         
 #8
 #코드1
@@ -79,6 +80,7 @@ if (max(t) >= sum(t)-max(t)):
     t.remove(max(t))
     t.append(sum(t)-1)
 print(sum(t))
+
 #코드2
 t = list(map(int,input().split()))
 t.sort()
