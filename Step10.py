@@ -57,6 +57,7 @@ if a+b+c == 180:
         print("Scalene")
 else:
     print("Error")
+  
     
 #7
 while(1):
