@@ -6,3 +6,8 @@ print(0)  # 상수항이므로 차수는 0
 n = int(input())
 print(n)
 print(1)
+
+#3
+n = int(input())
+print(n**2)
+print(2)
