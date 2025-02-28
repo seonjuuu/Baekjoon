@@ -21,3 +21,8 @@ print(2)
 n = int(input())
 print(n**3)
 print(3)
+
+#6 -> 조합, 1부터 n까지의 정수를 중복되지 않게 조합
+n = int(input())
+print((n*(n-1)*(n-2))//6)
+print(3)
