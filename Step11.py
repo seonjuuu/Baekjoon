@@ -16,3 +16,8 @@ print(2)
 n = int(input())
 print((n*(n-1))//2)
 print(2)
+
+#5
+n = int(input())
+print(n**3)
+print(3)
