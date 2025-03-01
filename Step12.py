@@ -10,3 +10,4 @@ for i in range(N):
                 result.append(list[i]+list[j]+list[k])
             else:
                 continue
+            print(max(result))
