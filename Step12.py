@@ -8,3 +8,5 @@ for i in range(N):
         for k in range(j+1,N):
             if (list[i]+list[j]+list[k] <= M):
                 result.append(list[i]+list[j]+list[k])
+            else:
+                continue
