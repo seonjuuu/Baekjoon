@@ -29,3 +29,5 @@ for i in range(1,N+1):    # n보다 작은 수들을 다 확인
     if num_sum == N:
         print(i)
         break
+    if i == N :  # 생성자 i와 입력값이 같다는 것은 생성자가 없다는 뜻
+        print(0)
