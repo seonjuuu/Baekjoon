@@ -37,3 +37,4 @@ for i in range(1,N+1):    # n보다 작은 수들을 다 확인
 a,b,c,d,e,f = map(int,input().split())
 result = []
 for x in range(-999,1000):
+    for y in range(-999,1000):
