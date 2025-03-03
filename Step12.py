@@ -35,3 +35,4 @@ for i in range(1,N+1):    # n보다 작은 수들을 다 확인
         
 #3
 a,b,c,d,e,f = map(int,input().split())
+result = []
