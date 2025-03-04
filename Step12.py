@@ -67,3 +67,5 @@ for a in range(n-7):   #체스판
                 else:
                     if bored[i][j] == "W":
                         w_start += 1 
+                    else:
+                        b_start += 1
