@@ -71,3 +71,5 @@ for a in range(n-7):   #체스판
                         b_start += 1
         cnt.append(w_start)
         cnt.append(b_start)
+
+print(min(cnt)) 
