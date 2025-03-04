@@ -59,3 +59,6 @@ for a in range(n-7):   #체스판
         b_start = 0 # 맨 왼쪽 위가 검은색인 경우일때, 다시 칠해야하는 정사각형 개수
         for i in range(a,a+8): #체스판의 각 칸
             for j in range(b,b+8):
+                if (i+j)%2 == 0 : # 짝수인 경우
+                
+                else:
