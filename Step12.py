@@ -49,3 +49,6 @@ for x in range(-999,1000):
 n, m = map(int,input().split())
 bored = []
 cnt = []
+
+for i in range(n):
+    bored.append(input())
