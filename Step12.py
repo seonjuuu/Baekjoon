@@ -62,4 +62,6 @@ for a in range(n-7):   #체스판
                 if (i+j)%2 == 0 : # 짝수인 경우
                     if bored[i][j] == "W" :
                         b_start += 1  # 맨 왼쪽 위칸이 검은색인 경우에 수정해야하는!
+                    else : 
+                        w_start += 1
                 else:
