@@ -52,3 +52,6 @@ cnt = []
 
 for i in range(n):
     bored.append(input())
+    
+for a in range(n-7):   #체스판
+    for b in range(m-7):  #8*8로 자르기위해 -7
