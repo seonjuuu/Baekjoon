@@ -60,5 +60,6 @@ for a in range(n-7):   #체스판
         for i in range(a,a+8): #체스판의 각 칸
             for j in range(b,b+8):
                 if (i+j)%2 == 0 : # 짝수인 경우
-                
+                    if bored[i][j] == "W" :
+                        b_start += 1  # 맨 왼쪽 위칸이 검은색인 경우에 수정해야하는!
                 else:
