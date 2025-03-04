@@ -55,3 +55,5 @@ for i in range(n):
     
 for a in range(n-7):   #체스판
     for b in range(m-7):  #8*8로 자르기위해 -7
+        w_start = 0 # 맨 왼쪽 위가 흰색인 경우
+        b_start = 0 # 맨 왼쪽 위가 검은색인 경우일때, 다시 칠해야하는 정사각형 개수
