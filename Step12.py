@@ -73,3 +73,7 @@ for a in range(n-7):   #체스판
         cnt.append(b_start)
 
 print(min(cnt)) 
+
+
+#5 
+# 6이 적어도 3개 이상 연속
