@@ -91,3 +91,5 @@ if '666' in str(num): #num이 종말의 수일때
 if cnt == n :  #n번째 종말의 수를 찾았다면
         print(num)
         break
+    
+num += 1  #num을 1씩 증가
