@@ -83,3 +83,6 @@ print(min(cnt))
 n = int(input())
 cnt = 0     # 종말의 수번째
 num =  666   # 666이 첫번째 종말의 수이므로, 666부터 시작 !
+
+if '666' in str(num): #num이 종말의 수일때
+        cnt += 1
