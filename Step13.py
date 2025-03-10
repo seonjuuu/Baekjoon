@@ -10,3 +10,4 @@ for i in range(N):
     
 list.sort()
 for i in range(N):
+    print(list[i])    
