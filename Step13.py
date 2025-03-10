@@ -9,3 +9,4 @@ for i in range(N):
     list.append(a)
     
 list.sort()
+for i in range(N):
