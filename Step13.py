@@ -19,3 +19,4 @@ for i in range(5):
     list.append(a)
 
 list.sort()
+print(sum(list)//5)
