@@ -13,5 +13,6 @@ for i in range(N):
     print(list[i])    
 
 #2
-list = []for i in range(5):
+list = []
+for i in range(5):
     
