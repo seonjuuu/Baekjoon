@@ -22,3 +22,4 @@ list.sort()
 print(sum(list)//5)
 print(list[2])
 #3
+N, k = map(int,input().split())
