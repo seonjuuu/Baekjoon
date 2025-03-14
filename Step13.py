@@ -39,3 +39,4 @@ for i in range(N):
     k = int(input())
     list.append(k)
 list.sort()
+for i in list:
