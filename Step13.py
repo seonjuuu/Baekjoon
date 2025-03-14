@@ -31,3 +31,4 @@ print(x[k-1])
 #시간초과 
 #import sys
 #input = sys.stdin.readline()
+import sys
