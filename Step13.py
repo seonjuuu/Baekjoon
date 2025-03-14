@@ -29,3 +29,4 @@ x.sort(reverse=True)   # 내림차순
 print(x[k-1])
 #4
 #시간초과 
+#import sys
