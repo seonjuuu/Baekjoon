@@ -33,3 +33,4 @@ print(x[k-1])
 #input = sys.stdin.readline()
 import sys
 input = sys.stdin.readline
+N = int(input())
