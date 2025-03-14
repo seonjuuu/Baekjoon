@@ -27,6 +27,7 @@ N, k = map(int,input().split())
 x = list(map(int,input().split()))
 x.sort(reverse=True)   # 내림차순
 print(x[k-1])
+
 #4
 #시간초과 
 #import sys
