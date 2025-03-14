@@ -32,3 +32,4 @@ print(x[k-1])
 #import sys
 #input = sys.stdin.readline()
 import sys
+input = sys.stdin.readline
