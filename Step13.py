@@ -37,3 +37,4 @@ N = int(input())
 list = []
 for i in range(N):
     k = int(input())
+    list.append(k)
