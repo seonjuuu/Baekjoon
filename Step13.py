@@ -38,4 +38,4 @@ list = []
 for i in range(N):
     k = int(input())
     list.append(k)
-    list.sort()
+list.sort()
