@@ -40,3 +40,4 @@ for i in range(N):
     list.append(k)
 list.sort()
 for i in list:
+    print(i)
