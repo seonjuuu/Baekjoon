@@ -93,3 +93,5 @@ while(1):
         break
     
     num += 1  #num을 1씩 증가
+    
+    
