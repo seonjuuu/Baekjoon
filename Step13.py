@@ -43,3 +43,4 @@ for i in range(N):
 list.sort()
 for i in list:
     print(i)
+#6
