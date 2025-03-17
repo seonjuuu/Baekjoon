@@ -50,4 +50,4 @@ N = list(map(int,str(input)))
 N.sort(reverse=True)    # sort=정렬 / [::-1] = 자리옮기기(정렬x)
 for i in range(len(N)):
     print(N[i],end="")
-#7 
+#7 -> sort 함수 기준 정하기
