@@ -56,3 +56,4 @@ for i in range(len(N)):
 N = int(input())
 list = []
 for i in range(N):
+    x,y = map(int,input().split())
