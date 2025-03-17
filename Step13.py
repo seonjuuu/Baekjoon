@@ -62,3 +62,4 @@ for i in range(N):
 
 list.sort()  
 for i in range(N):  
+    print(list[i][0], list[i][1])
