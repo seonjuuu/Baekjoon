@@ -44,3 +44,4 @@ list.sort()
 for i in list:
     print(i)
 #6
+N = (map(int,str(input)))
