@@ -47,3 +47,4 @@ for i in list:
 N = list(map(int,str(input)))
 N.sort(reverse=True)    # sort=정렬 / [::-1] = 자리옮기기(정렬x)
 for i in range(len(N)):
+    print(N[i],end="")
