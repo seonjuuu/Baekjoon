@@ -55,6 +55,7 @@ for i in range(len(N)):
 #list.sort() = x을 기준으로 정렬 -> y을 기준으로 정렬
 N = int(input())
 list = []
+
 for i in range(N):
     x,y = map(int,input().split())
     list.append([x,y])
