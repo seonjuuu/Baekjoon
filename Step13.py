@@ -54,3 +54,4 @@ for i in range(len(N)):
 #이차원 리스트 -> [[x1,y1],[x2,y2] . . .] 
 #list.sort() = x을 기준으로 정렬 -> y을 기준으로 정렬
 N = int(input())
+list = []
