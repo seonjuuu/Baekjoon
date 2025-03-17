@@ -45,3 +45,4 @@ for i in list:
     print(i)
 #6
 N = list(map(int,str(input)))
+N.sort()
