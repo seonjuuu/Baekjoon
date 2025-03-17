@@ -45,4 +45,4 @@ for i in list:
     print(i)
 #6
 N = list(map(int,str(input)))
-N.sort(reverse=True)      # sort=정렬
+N.sort(reverse=True)    # sort=정렬 / [::-1] = 자리옮기기(정렬x)
