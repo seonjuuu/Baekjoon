@@ -78,4 +78,4 @@ for i in range(N):
     x,y = map(int,input().split())
     list.append([y,x])    # y,x 순서바꿔서 append
 
-list.sort()
+list.sort() # 순서바꿨기에, y가 x보다 먼저 -> y기준으로 정렬 후 x로 정렬
