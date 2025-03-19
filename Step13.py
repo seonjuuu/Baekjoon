@@ -73,3 +73,4 @@ for i in range(N):
 #list.sort(key = lambda x: (x[1], x[0]))
 #경우1
 N = int(input())
+list = []
