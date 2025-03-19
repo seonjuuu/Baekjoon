@@ -70,3 +70,4 @@ for i in range(N):
 
 #8
 #두번째 값을 기준 -> sort 함수의 기준을 바꿔야함
+#list.sort(key = lambda x: (x[1], x[0]))
