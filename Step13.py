@@ -77,4 +77,4 @@ list = []
 for i in range(N):
     x,y = map(int,input().split())
     list.append([y,x])    # y,x 순서바꿔서 append
-    list.sort()
+list.sort()
