@@ -75,3 +75,4 @@ for i in range(N):
 N = int(input())
 list = []
 for i in range(N):
+    x,y = map(int,input().split())
