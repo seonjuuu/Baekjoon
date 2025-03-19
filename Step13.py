@@ -74,3 +74,4 @@ for i in range(N):
 #경우1
 N = int(input())
 list = []
+for i in range(N):
