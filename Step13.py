@@ -80,3 +80,4 @@ for i in range(N):
 
 list.sort() # 순서바꿨기에, y가 x보다 먼저 -> y기준으로 정렬 후 x로 정렬
 for i in range(N):
+    print(list[i][1],list[i][0])
