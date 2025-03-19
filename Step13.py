@@ -67,3 +67,5 @@ for i in range(N):
     print(list[i][0], list[i][1])
 # for i in list: 
 # print(i[0], i[1]) 
+
+#8
