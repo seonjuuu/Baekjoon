@@ -83,3 +83,4 @@ for i in range(N):
     print(list[i][1],list[i][0])
 
 #9
+#기본 list.sort() -> 사전순으로 정렬(sort 정렬이 문자까지 정렬)
