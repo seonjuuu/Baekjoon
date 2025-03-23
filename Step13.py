@@ -97,3 +97,4 @@ list.sort(key=lambda x : (len(x),x)) # 1. len(x) -> 길이로 정렬 2. x -> 사
 #list.sort(key=len) -> 길이순
 #list.sort() # -> 사전순
 for i in list:
+    print(i)
