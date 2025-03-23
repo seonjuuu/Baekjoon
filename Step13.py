@@ -94,3 +94,4 @@ for i in range(N):
         list.append(s)
 list.sort(key=lambda x : (len(x),x)) # 1. len(x) -> 길이로 정렬 2. x -> 사전 순
 # 챗
+#list.sort(key=len) -> 길이순
