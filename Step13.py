@@ -90,3 +90,4 @@ N = int(input())
 list = []
 for i in range(N):
     s = input()
+    if s not in list:
