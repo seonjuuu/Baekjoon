@@ -92,3 +92,4 @@ for i in range(N):
     s = input()
     if s not in list:
         list.append(s)
+        list.sort(key=lambda x : (len(x),x)) # 1. len(x) -> 길이로 정렬 2. x -> 사전 순
