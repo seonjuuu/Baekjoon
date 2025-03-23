@@ -89,3 +89,4 @@ for i in range(N):
 N = int(input())
 list = []
 for i in range(N):
+    s = input()
