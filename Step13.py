@@ -102,3 +102,4 @@ for i in list:
 
 #10
 import sys
+input = sys.stdin.readline
