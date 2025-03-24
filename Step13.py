@@ -106,3 +106,4 @@ input = sys.stdin.readline
 
 N = int(input())
 list = []
+for i in range(N):
