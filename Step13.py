@@ -109,3 +109,4 @@ list = []
 for i in range(N):
     age, name = input().split()
     age = int(age)
+    list.append([age,name])
