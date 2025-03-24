@@ -110,4 +110,4 @@ for i in range(N):
     age, name = input().split()
     age = int(age)
     list.append([age,name])
-    list.sort(key=lambda x : x[0]) #기본적으로 입력순 정렬 -> 나이(x[0]로 정렬
+list.sort(key=lambda x : x[0]) #기본적으로 입력순 정렬 -> 나이(x[0]로 정렬
