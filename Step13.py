@@ -115,4 +115,4 @@ list.sort(key=lambda x : x[0]) #기본적으로 입력순 정렬 -> 나이(x[0]�
 for i in list:
     print(i[0],i[1])
 
-    
+#11
