@@ -124,3 +124,4 @@ arr = (set(X))      # 중복제거
 arr = sorted(arr)   # [-10,-9,2,4]
 dic = {arr[i]:i for i in range(len(arr))}  # {-10:0, -9:1, 2:2, 4:3} #arr(key)에 인덱스 값을 넣어줌
 for i in X:
+    print(dic[i],end=" ")
