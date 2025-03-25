@@ -120,3 +120,4 @@ for i in list:
 #딕셔너리 이용
 N = int(input())
 X = list(map(int,input().split()))
+arr = (set(X)) 
