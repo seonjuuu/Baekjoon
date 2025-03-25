@@ -120,5 +120,5 @@ for i in list:
 #딕셔너리 이용
 N = int(input())
 X = list(map(int,input().split()))
-arr = (set(X))    # 중복제거
-arr = sorted(arr)
+arr = (set(X))      # 중복제거
+arr = sorted(arr)   # [-10,-9,2,4]
