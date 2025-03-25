@@ -121,3 +121,4 @@ for i in list:
 N = int(input())
 X = list(map(int,input().split()))
 arr = (set(X))    # 중복제거
+arr = sorted(arr)
