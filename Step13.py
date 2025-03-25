@@ -122,3 +122,4 @@ N = int(input())
 X = list(map(int,input().split()))
 arr = (set(X))      # 중복제거
 arr = sorted(arr)   # [-10,-9,2,4]
+dic = {arr[i]:i for i in range(len(arr))}
