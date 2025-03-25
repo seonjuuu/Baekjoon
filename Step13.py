@@ -116,3 +116,4 @@ for i in list:
     print(i[0],i[1])
 
 #11
+#list.index(i) -> 시간초과
