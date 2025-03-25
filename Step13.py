@@ -119,4 +119,4 @@ for i in list:
 #list.index(i) -> 시간초과
 #딕셔너리 이용
 N = int(input())
-X = (map(int,input().split()))
+X = list(map(int,input().split()))
