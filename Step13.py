@@ -118,3 +118,4 @@ for i in list:
 #11
 #list.index(i) -> 시간초과
 #딕셔너리 이용
+N = int(input())
