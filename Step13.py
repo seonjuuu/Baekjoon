@@ -104,6 +104,7 @@ list.sort(key=lambda x : (len(x),x)) # 1. len(x) -> 길이로 정렬 2. x -> 사
 for i in list:
     print(i)
 
+
 #10
 import sys
 input = sys.stdin.readline
