@@ -12,3 +12,4 @@ for i in range(N):
         
     elif command[0] == "pop":
         if len(stack) == 0:
+            print(-1)
