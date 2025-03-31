@@ -11,3 +11,4 @@ for i in range(N):
         stack.append(command[1])
         
     elif command[0] == "pop":
+        if len(stack) == 0:
