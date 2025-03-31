@@ -14,3 +14,4 @@ for i in range(N):
         if len(stack) == 0:
             print(-1)
         else:
+            print(stack[len(stack)-1])
