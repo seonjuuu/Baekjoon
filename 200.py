@@ -10,3 +10,4 @@ for i in range(N):
     if command[0] == "push":
         stack.append(command[1])
         
+    elif command[0] == "pop":
