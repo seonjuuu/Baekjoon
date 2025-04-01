@@ -31,3 +31,5 @@ for i in range(N):
             print(-1)
         else:
             print(stack[len(stack)-1])
+        
+    
