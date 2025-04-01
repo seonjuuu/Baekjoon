@@ -29,3 +29,4 @@ for i in range(N):
     elif command[0] == "top":
         if len(stack) == 0:
             print(-1)
+        else:
