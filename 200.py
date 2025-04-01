@@ -19,3 +19,5 @@ for i in range(N):
     
     elif command[0] == "size":
         print(len(stack))
+    
+    elif command[0] == "empty":
