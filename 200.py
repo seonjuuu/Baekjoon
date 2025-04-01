@@ -18,3 +18,4 @@ for i in range(N):
             del(stack[len(stack)-1])
     
     elif command[0] == "size":
+        print(len(stack))
