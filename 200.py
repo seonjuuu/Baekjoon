@@ -21,3 +21,4 @@ for i in range(N):
         print(len(stack))
     
     elif command[0] == "empty":
+        if len(stack) == 0:
