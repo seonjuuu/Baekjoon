@@ -16,3 +16,5 @@ for i in range(N):
         else:
             print(stack[len(stack)-1])   #stack[len(stack)-1] = stack[-1] / print(stack.pop()) - 한줄로 가능, list.pop() 
             del(stack[len(stack)-1])
+    
+    elif command[0] == "size":
