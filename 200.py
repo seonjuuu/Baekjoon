@@ -34,4 +34,5 @@ for i in range(N):
         
 #2 단어 뒤집기
 N = int(input())
+
 for i in range(N): 
