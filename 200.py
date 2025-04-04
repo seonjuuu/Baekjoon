@@ -32,4 +32,4 @@ for i in range(N):
         else:
             print(stack[len(stack)-1])
         
-    
+#2 단어 뒤집기
