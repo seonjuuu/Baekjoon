@@ -33,3 +33,4 @@ for i in range(N):
             print(stack[len(stack)-1])
         
 #2 단어 뒤집기
+N = int(input())
