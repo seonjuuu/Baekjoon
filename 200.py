@@ -36,3 +36,4 @@ for i in range(N):
 N = int(input())
 
 for i in range(N): 
+    word = list(input().split())
