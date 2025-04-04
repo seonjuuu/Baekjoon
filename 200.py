@@ -39,3 +39,4 @@ for i in range(N):
     word = list(input().split())
     new = []
     for j in range(len(word)):
+        new.append(word[j][::-1])
