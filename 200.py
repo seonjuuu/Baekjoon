@@ -45,3 +45,4 @@ for i in range(N):
         print(k, end=" ")
 
 #3
+# 스택이용
