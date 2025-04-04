@@ -43,4 +43,5 @@ for i in range(N):
     
     for k in new:
         print(k, end=" ")
-        
+
+#3
