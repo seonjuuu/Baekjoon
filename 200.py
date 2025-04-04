@@ -40,3 +40,4 @@ for i in range(N):
     new = []
     for j in range(len(word)):
         new.append(word[j][::-1]) #reverse(x)  -> reverse와 [::-1] 차이점
+        for k in new:
