@@ -53,3 +53,4 @@ for i in range(N):
 N = int(input())
 for i in range(N):
     v = input()
+    stack = []
