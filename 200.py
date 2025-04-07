@@ -59,3 +59,4 @@ for i in range(N):
             stack.append("(")
         else:
             if len(stack) == 0 :
+                stack.append(")")
