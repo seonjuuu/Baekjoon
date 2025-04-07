@@ -56,3 +56,4 @@ for i in range(N):
     stack = []
     for j in range(len(v)):  
         if v[j] == "(":
+            stack.append("(")
