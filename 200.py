@@ -61,3 +61,4 @@ for i in range(N):
             if len(stack) == 0 :
                 stack.append(")")
                 break
+            stack.pop()
