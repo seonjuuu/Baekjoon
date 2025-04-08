@@ -64,3 +64,4 @@ for i in range(N):
             stack.pop()
     if len(stack) == 0:
         print("YES")
+    else:
