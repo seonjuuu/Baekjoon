@@ -60,3 +60,4 @@ for i in range(N):
         else:
             if len(stack) == 0 :
                 stack.append(")")
+                break
