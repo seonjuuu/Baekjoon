@@ -63,3 +63,4 @@ for i in range(N):
                 break
             stack.pop()
     if len(stack) == 0:
+        print("YES")
