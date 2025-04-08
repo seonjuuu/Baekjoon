@@ -65,3 +65,4 @@ for i in range(N):
     if len(stack) == 0:
         print("YES")
     else:
+        print("NO")
