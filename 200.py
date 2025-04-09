@@ -68,3 +68,4 @@ for i in range(N):
         print("NO")
 
 #4 스택수열
+n = int(input()) 
