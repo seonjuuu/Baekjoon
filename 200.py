@@ -78,4 +78,4 @@ for i in range(n):
     while cur <= num:  # 입력한 수를 만날 때 까지 오름차순으로 push / 들어있는 수(이전 num보다 작은수들)는 while의 조건에 맞지 않으므로 pass -> if문으로 ex> num = 3일때
         stack.append(cur)
         answer.append("+")
-        cur += 1 
+        cur += 1      # 다음 num은 cur이 (이전num+1)의 값부터 num까지 수를 push
