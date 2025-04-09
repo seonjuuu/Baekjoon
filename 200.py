@@ -70,3 +70,4 @@ for i in range(N):
 #4 스택수열
 n = int(input()) 
 stack = []
+answer = []
