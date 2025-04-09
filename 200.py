@@ -66,3 +66,5 @@ for i in range(N):
         print("YES")
     else:
         print("NO")
+
+#4 스택수열
