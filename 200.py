@@ -90,3 +90,4 @@ for i in range(n):
         break
 
 if flag == 0:             # flag = 0 일 때만 출력
+    for i in answer:
