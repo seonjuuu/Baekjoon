@@ -88,4 +88,5 @@ for i in range(n):
         print("NO")       # 왜냐하면 TOP이 num보다 크면 num은 TOP보다 더 아래에 쌓여있기 때문이다.
         flag = 1           # flag = 1을 적어 출력할 때, 이 경우의 answer은 출력하지 않는다.
         break
+    
 if flag == 0:
