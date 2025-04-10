@@ -85,4 +85,4 @@ for i in range(n):
         stack.pop()       # 스택의 TOP을 꺼내 수열을 만들어 준다.
         answer.append("-")
     else:                 # stack의 TOP이 입력한 수가 아니면 주어진 스택을 만들 수 없다.
-        print("NO")
+        print("NO")       # 왜냐하면 TOP이 num보다 크면 num은 TOP보다 더 아래에 쌓여있기 때문이다.
