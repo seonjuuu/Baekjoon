@@ -82,4 +82,4 @@ for i in range(n):
     # 입력한 수를 만나면 while문 탈출. 즉 cur = num일 때 까지 while문을 돌아 스택을 쌓는다.
 
     if stack[-1] == num:  # stack의 TOP이 입력한 숫자와 같다면
-        stack.pop()
+        stack.pop()       # 스택의 TOP을 꺼내 수열을 만들어 준다.
