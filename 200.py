@@ -83,3 +83,4 @@ for i in range(n):
 
     if stack[-1] == num:  # stack의 TOP이 입력한 숫자와 같다면
         stack.pop()       # 스택의 TOP을 꺼내 수열을 만들어 준다.
+        answer.append("-")
