@@ -81,4 +81,4 @@ for i in range(n):
         cur += 1      # 다음 num은 cur이 (이전num+1)의 값부터 num까지 수를 push
     # 입력한 수를 만나면 while문 탈출. 즉 cur = num일 때 까지 while문을 돌아 스택을 쌓는다.
 
-    
+    if stack[-1] == num: 
