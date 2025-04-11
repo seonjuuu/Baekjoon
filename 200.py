@@ -104,3 +104,4 @@ if flag == 0:             # flag = 0 일 때만 출력
 # sys.stdin.readline()은 입력에서 개행 문자를 포함하므로, 이를 처리하기 위해 strip()을 사용해야 합니다.
 
 import sys
+input = sys.stdin.readline
