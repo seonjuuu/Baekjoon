@@ -111,3 +111,4 @@ right = []
 
 N = int(input())
 for _ in range(N):
+    command = input().split()
