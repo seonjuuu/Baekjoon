@@ -112,3 +112,4 @@ right = []
 N = int(input())
 for _ in range(N):
     command = input().split()
+    if command[0] == "L" and left :
