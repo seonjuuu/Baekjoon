@@ -105,3 +105,5 @@ if flag == 0:             # flag = 0 일 때만 출력
 
 import sys
 input = sys.stdin.readline
+
+left = list(input().strip())
