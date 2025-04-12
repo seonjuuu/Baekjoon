@@ -110,3 +110,4 @@ left = list(input().strip()) #strip() : 개행제거
 right = []
 
 N = int(input())
+for _ in range(N):
