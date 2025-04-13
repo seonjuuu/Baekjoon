@@ -117,6 +117,7 @@ for _ in range(N):
     elif command[0] == "D" and right :
         left.append(right.pop())
     elif command[0] == "B" and left:
+        left.pop()
         
     
     
