@@ -114,3 +114,4 @@ for _ in range(N):
     command = input().split()
     if command[0] == "L" and left : #커서가 문자의 맨 앞이면 left는 0(false)인 것이다. 커서가 문장의 맨 앞일때는 무시되어야하므로 조건에 left가 0이 아닌 조건을 넣줘야한다
         right.append(left.pop())
+    elif command[0] == "D" and right :
