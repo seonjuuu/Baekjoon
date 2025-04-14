@@ -121,6 +121,7 @@ for _ in range(N):
     elif command[0] == "P" :
         left.append(command[1])
         
+answer = left + right[::-1]
     
     
     
