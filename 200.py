@@ -121,7 +121,6 @@ for _ in range(N):
     elif command[0] == "P" :
         left.append(command[1])
         
-answer = left + right[::-1]
-    
+answer = left + right[::-1] # 오른쪽 스택은 역순으로 붙어줘여함!! [left](커서)[right(top) . . right(밑)]    
     
     
