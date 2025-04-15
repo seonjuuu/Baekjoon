@@ -127,4 +127,5 @@ print("".join(answer))      # 하나의 문자열로 합치기
 #6
 N = int(input())
 Q = []
+for _ in range(N):
     
