@@ -125,4 +125,5 @@ answer = left + right[::-1] # 오른쪽 스택은 역순으로 붙어줘여함!!
 print("".join(answer))      # 하나의 문자열로 합치기
 
 #6
+N = int(input())
     
