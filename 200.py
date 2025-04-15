@@ -122,5 +122,5 @@ for _ in range(N):
         left.append(command[1])
         
 answer = left + right[::-1] # 오른쪽 스택은 역순으로 붙어줘여함!! [left](커서)[right(top) . . right(밑)]    
-print("".join(answer))
+print("".join(answer))      # 하나의 문자열로 합치기
     
