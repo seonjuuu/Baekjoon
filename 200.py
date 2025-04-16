@@ -130,4 +130,5 @@ Q = []
 for _ in range(N):
     command = input().split()
     if command[0] == "push":
+        Q.append(command[1])
     
