@@ -132,5 +132,6 @@ for _ in range(N):
     if command[0] == "push":
         Q.append(command[1])
     elif command[0] == "pop":
+        if len(Q) == 0:
         
     
