@@ -136,5 +136,6 @@ for _ in range(N):
             print(-1)
         else:
             print(Q[0])
+            del(Q[0])
         
     
