@@ -133,5 +133,6 @@ for _ in range(N):
         Q.append(command[1])
     elif command[0] == "pop":
         if len(Q) == 0:
+            print(-1)
         
     
