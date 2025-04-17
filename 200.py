@@ -137,5 +137,6 @@ for _ in range(N):
         else:
             print(Q[0])
             del(Q[0])
+    elif command[0] == "size":
         
     
