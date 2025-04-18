@@ -139,5 +139,6 @@ for _ in range(N):
             del(Q[0])
     elif command[0] == "size":
         print(len(Q))
+    elif command[0] == "empty":
         
     
