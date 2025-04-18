@@ -144,5 +144,6 @@ for _ in range(N):
             print(1)
         else:
             print(0)
+    elif command[0] == "front":
         
     
