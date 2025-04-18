@@ -148,5 +148,6 @@ for _ in range(N):
         if len(Q) == 0:
             print(-1)
         else:
+            print(Q[0])
         
     
