@@ -147,5 +147,6 @@ for _ in range(N):
     elif command[0] == "front":
         if len(Q) == 0:
             print(-1)
+        else:
         
     
