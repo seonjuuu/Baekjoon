@@ -141,5 +141,6 @@ for _ in range(N):
         print(len(Q))
     elif command[0] == "empty":
         if len(Q) == 0:
+            print(1)
         
     
