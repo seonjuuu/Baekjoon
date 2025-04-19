@@ -150,5 +150,6 @@ for _ in range(N):
         else:
             print(Q[0])
     elif command[0] == "back":
+        if len(Q) == 0:
         
     
