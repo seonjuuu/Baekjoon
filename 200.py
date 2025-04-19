@@ -155,5 +155,6 @@ for _ in range(N):
         else:
             print(Q[-1]) #맨뒤=-1
 
+#7 -> 큐(deque) 사용!
         
     
