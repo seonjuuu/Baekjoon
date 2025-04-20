@@ -161,5 +161,7 @@ for _ in range(N):
 from collections import deque
 
 N, k = map(int,input().split())
+
+people = deque()
         
     
