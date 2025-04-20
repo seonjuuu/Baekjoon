@@ -162,6 +162,6 @@ from collections import deque
 
 N, k = map(int,input().split())
 
-people = deque()
+people = deque() #deque형으로 !!
         
     
