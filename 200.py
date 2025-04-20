@@ -163,5 +163,6 @@ from collections import deque
 N, k = map(int,input().split())
 
 people = deque() #deque형으로 !!
+for i in range(1,N+1):
         
     
