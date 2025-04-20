@@ -159,5 +159,7 @@ for _ in range(N):
 # 해결방안
 # 큐에서 k-1개를 제거하여 다시 큐 뒤에 붙이고, k번째는 pop출력
 from collections import deque
+
+N, k = map(int,input().split())
         
     
