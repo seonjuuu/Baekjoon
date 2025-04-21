@@ -167,5 +167,5 @@ for i in range(1,N+1):
     people.append(i)
 result = []
 
-while people : 
+while people :   # 사람이 모두 제거될 때까지
     
