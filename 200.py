@@ -168,4 +168,4 @@ for i in range(1,N+1):
 result = []
 
 while people :   # 사람이 모두 제거될 때까지
-    
+    for i in range(k-1):
