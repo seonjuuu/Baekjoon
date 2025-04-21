@@ -169,3 +169,4 @@ result = []
 
 while people :   # 사람이 모두 제거될 때까지
     for i in range(k-1):  # 계속 3번째의 값을 삭제 (큐가 움직임)
+        people.append(people.popleft())
