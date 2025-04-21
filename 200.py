@@ -172,3 +172,5 @@ while people :   # 사람이 모두 제거될 때까지
         people.append(people.popleft())  ##큐에서 첫번째 값을 꺼내기 위해서는 popleft()!!
         
     result.append(people.popleft())
+
+print(str(result).replace("[","<").replace("]",">"))
