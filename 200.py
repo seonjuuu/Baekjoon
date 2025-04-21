@@ -166,5 +166,6 @@ people = deque() #deque형으로 !!
 for i in range(1,N+1):
     people.append(i)
 result = []
-        
+
+while people : 
     
