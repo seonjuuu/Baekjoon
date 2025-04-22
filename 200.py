@@ -177,3 +177,4 @@ print(str(result).replace("[","<").replace("]",">"))
 # replace 함수 = 문자열에서만 !!
 
 #8
+import sys
