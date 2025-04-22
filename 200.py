@@ -175,3 +175,5 @@ while people :   # 사람이 모두 제거될 때까지
 
 print(str(result).replace("[","<").replace("]",">"))
 # replace 함수 = 문자열에서만 !!
+
+#8
