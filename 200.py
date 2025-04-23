@@ -180,3 +180,4 @@ print(str(result).replace("[","<").replace("]",">"))
 import sys
 input = sys.stdin.readline
 N = int(input())
+deque = []
