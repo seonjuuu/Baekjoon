@@ -181,3 +181,4 @@ import sys
 input = sys.stdin.readline
 N = int(input())
 deque = []
+for _ in range(N):
