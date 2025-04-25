@@ -189,3 +189,4 @@ for _ in range(N):
         deque.append(command[1])
     elif command[0] == "pop_front":
         if len(deque) == 0:
+            print(-1)
