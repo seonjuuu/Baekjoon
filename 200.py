@@ -191,3 +191,4 @@ for _ in range(N):
         if len(deque) == 0:
             print(-1)
         else:
+            print(deque[0])
