@@ -184,3 +184,4 @@ deque = []
 for _ in range(N):
     command = input().split()
     if command[0] == "push_front":
+        deque.insert(0,command[1])
