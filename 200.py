@@ -187,3 +187,4 @@ for _ in range(N):
         deque.insert(0,command[1])
     elif command[0] == "push_back":
         deque.append(command[1])
+    elif command[0] == "pop_front":
