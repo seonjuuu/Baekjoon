@@ -194,3 +194,4 @@ for _ in range(N):
             print(deque[0])
             del(deque[0])
     elif command[0] == "pop_back":
+        if len(deque) == 0:
