@@ -198,3 +198,4 @@ for _ in range(N):
             print(-1)
         else:
             print(deque[-1])
+            del(deque[-1])
