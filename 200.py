@@ -201,3 +201,4 @@ for _ in range(N):
             del(deque[-1])
     elif command[0] == "size":
         print(len(deque))
+    elif command[0] == "empty":
