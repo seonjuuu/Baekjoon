@@ -200,3 +200,4 @@ for _ in range(N):
             print(deque[-1])
             del(deque[-1])
     elif command[0] == "size":
+        print(len(deque))
