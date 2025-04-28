@@ -204,3 +204,4 @@ for _ in range(N):
     elif command[0] == "empty":
         if len(deque)==0:
             print(1)
+        else:
