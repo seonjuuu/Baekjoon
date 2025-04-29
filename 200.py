@@ -208,3 +208,4 @@ for _ in range(N):
             print(0)
     elif command[0]=="front":
         if len(deque) == 0:
+            print(-1)
