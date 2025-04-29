@@ -213,3 +213,4 @@ for _ in range(N):
             print(deque[0])
     elif command[0] == "back":
         if len(deque) == 0:
+            print(-1)
