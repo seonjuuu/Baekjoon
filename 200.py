@@ -207,3 +207,4 @@ for _ in range(N):
         else:
             print(0)
     elif command[0]=="front":
+        if len(deque) == 0:
