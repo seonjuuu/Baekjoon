@@ -212,3 +212,4 @@ for _ in range(N):
         else:
             print(deque[0])
     elif command[0] == "back":
+        if len(deque) == 0:
