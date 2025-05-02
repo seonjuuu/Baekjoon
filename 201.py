@@ -8,3 +8,4 @@
 S = input() #split(X) -> 문자 사이의 공백이 필요
 stack = []
 ans = ""
+check = "outer" 
