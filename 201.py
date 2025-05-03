@@ -12,4 +12,4 @@ check = "outer"   # 태그안의 여부를 체크
 for i in S:
     if (i == "<"):
         check = "inter"
-        for _ in range(len(stack)): 
+        for _ in range(len(stack)):  #스택에 들어있는 문자들을 역순(pop())으로 다 빼기
