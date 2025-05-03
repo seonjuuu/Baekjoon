@@ -10,3 +10,4 @@ stack = []
 ans = ""
 check = "outer"   # 태그안의 여부를 체크
 for i in S:
+    if (i == "<"):
