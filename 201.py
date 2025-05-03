@@ -14,3 +14,4 @@ for i in S:
         check = "inter"
         for _ in range(len(stack)):  #스택에 들어있는 문자들을 역순(pop())으로 다 빼기
             ans = ans + stack.pop()
+            stack.append(i) 
