@@ -9,3 +9,4 @@ S = input() #split(X) -> 문자 사이의 공백이 필요
 stack = []
 ans = ""
 check = "outer"   # 태그안의 여부를 체크
+for i in S:
