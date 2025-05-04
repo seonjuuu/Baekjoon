@@ -16,3 +16,5 @@ for i in S:
             ans = ans + stack.pop()
             
     stack.append(i) 
+
+    if (i == ">"):
