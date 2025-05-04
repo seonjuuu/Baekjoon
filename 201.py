@@ -18,4 +18,4 @@ for i in S:
     stack.append(i) 
 
     if (i == ">"): # 태그 끝. "<"부터 들어있는 스택을 다 비우기. 차례대로(pop(0))
-        check = "outer"
+        check = "outer"  # 태그의 끝이므로 다시 외부
