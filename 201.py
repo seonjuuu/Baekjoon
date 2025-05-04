@@ -23,3 +23,4 @@ for i in S:
             ans = ans + (stack.pop(0))
 
     if i == " " and check == "outer":
+        stack.pop()
