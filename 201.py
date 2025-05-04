@@ -21,3 +21,5 @@ for i in S:
         check = "outer"  # 태그의 끝이므로 다시 외부
         for _ in range(len(stack)):
             ans = ans + (stack.pop(0))
+
+    if i == " " and check == "outer":
