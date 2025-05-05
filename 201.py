@@ -24,3 +24,4 @@ for i in S:
 
     if i == " " and check == "outer":
         stack.pop() #방금 들어간 공백을 제거
+        for _ in range(len(stack)):
