@@ -27,4 +27,5 @@ for i in S:
         for _ in range(len(stack)):  # 문자열들만 뒤집어서 ans에 더함
             ans = ans + stack.pop()
             ans = ans + " "  # 마지막에 공백 살려주기
-    if stack: 
+
+if stack: 
