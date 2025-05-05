@@ -31,3 +31,5 @@ for i in S:
 if stack: # 마지막 문자열을 위에서 append만 해줌. 루프 종료 후 스택에 남아 있는 문자를 처리, 즉 입력 문자열의 마지막이 공백이나 태그로 끝나지 않는 경우 / ex> one1 two2 three3 4fourr 5five 6six
     for _ in range(len(stack)):
         ans += stack.pop()
+
+print(ans)
