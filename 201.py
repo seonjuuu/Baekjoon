@@ -24,4 +24,4 @@ for i in S:
 
     if i == " " and check == "outer":
         stack.pop() #방금 들어간 공백을 제거
-        for _ in range(len(stack)):
+        for _ in range(len(stack)):  # 문자열들만 뒤집어서 ans에 더함
