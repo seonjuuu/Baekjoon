@@ -33,3 +33,5 @@ if stack: # 마지막 문자열을 위에서 append만 해줌. 루프 종료 후
         ans += stack.pop()
 
 print(ans)
+
+#2 -> 레이더 기준
