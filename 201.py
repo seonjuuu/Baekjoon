@@ -54,3 +54,4 @@ for i in range(len(S)):
                 stack.pop()
                 cnt = cnt+len(stack) # 각 레이더가 영향을 주는 막대 개수
             else:     # 막대의 끝인 경우
+                stack.pop()
