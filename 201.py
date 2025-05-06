@@ -48,4 +48,4 @@ for i in range(len(S)):
     else:
         if S[i-1] == "(":  #레이더인 경우
             stack.pop()
-            cnt = cnt+len(stack)
+            cnt = cnt+len(stack)  # 각 레이더가 영향을 주는 막대 개수
