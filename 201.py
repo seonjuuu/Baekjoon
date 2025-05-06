@@ -46,3 +46,4 @@ for i in range(len(S)):
     if S[i] == "(":
         stack.append("(")
     else:
+        if S[i-1] == "(":
