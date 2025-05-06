@@ -46,4 +46,4 @@ for i in range(len(S)):
     if S[i] == "(":
         stack.append("(")
     else:
-        if S[i-1] == "(":
+        if S[i-1] == "(":  #레이더인 경우
