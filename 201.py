@@ -47,3 +47,4 @@ for i in range(len(S)):
         stack.append("(")
     else:
         if S[i-1] == "(":  #레이더인 경우
+            stack.pop()
