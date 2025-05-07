@@ -56,3 +56,4 @@ for i in range(len(S)):
             else:     # 막대의 끝인 경우
                 stack.pop()
                 cnt = cnt+1  # 막대의 끝인 경우 +1
+print(cnt)
