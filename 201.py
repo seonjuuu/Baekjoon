@@ -57,3 +57,6 @@ for i in range(len(S)):
                 stack.pop()
                 cnt = cnt+1  # 막대의 끝인 경우 +1
 print(cnt)
+
+
+#3 -> 스택
