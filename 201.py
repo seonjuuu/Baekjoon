@@ -66,3 +66,4 @@ print(cnt)
 # for문 -> 오큰수는 오른쪽의 값이므로(인덱스1부터 시작) / 입력받은 리스트의 값을 기준으로 아직 오큰수를 찾지 못한, 스택에 들어있는 인덱스자리의 값을 비교하여 오큰수면 
 import sys
 N = int(sys.stdin.readline())
+A = list(map(int, sys.stdin.readline().split()))
