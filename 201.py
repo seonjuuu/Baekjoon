@@ -69,4 +69,5 @@ N = int(sys.stdin.readline())
 A = list(map(int, sys.stdin.readline().split()))
 NGE= [-1]*N  # 오큰수가 없을 경우 -1로 표시해야하니 [-1] * N 사이즈의 리스트
 stack = [0]  # 0번 인덱스
+
 for i in range(1, N):
