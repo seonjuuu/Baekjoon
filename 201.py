@@ -78,3 +78,4 @@ for i in range(1, N):
 print(*NGE)
 
 #4
+#Counter 라이브러리 이용
