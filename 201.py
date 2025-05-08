@@ -79,3 +79,4 @@ print(*NGE)
 
 #4
 #Counter 라이브러리 이용
+#for문 & count() => 시간초과
