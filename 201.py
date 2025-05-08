@@ -75,4 +75,4 @@ for i in range(1, N):
     while stack and A[stack[-1]] < A[i]:
         NGE[stack.pop()] = A[i]   # 해당 인덱스 칸은 A[i]  #stack.pop이 되면서 stack[-1]값이 변함
         stack.append(i)
-        print(*NGE)
+    print(*NGE)
