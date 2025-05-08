@@ -82,3 +82,4 @@ print(*NGE)
 #for문 & count() => 시간초과
 from collections import Counter
 n = int(input())
+data = list(map(int, input().split()))
