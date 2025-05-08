@@ -83,3 +83,4 @@ print(*NGE)
 from collections import Counter
 n = int(input())
 data = list(map(int, input().split()))
+count = Counter(data)
