@@ -73,3 +73,4 @@ stack = [0]  # 0번 인덱스
 for i in range(1, N):
     # 오큰수 : A[i]의 오른쪽에 있으면서 A[i]보다 큰 수 중 가장 왼쪽 값 
     while stack and A[stack[-1]] < A[i]:
+        NGE[stack.pop()] = A[i]
