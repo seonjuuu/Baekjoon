@@ -83,4 +83,4 @@ print(*NGE)
 from collections import Counter
 n = int(input())
 data = list(map(int, input().split()))
-count = Counter(data)
+count = Counter(data) # 변수 마다 개수를 저장
