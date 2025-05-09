@@ -86,3 +86,4 @@ data = list(map(int, input().split()))
 count = Counter(data) # 변수 마다 개수를 저장
 #print(count) -> Counter({1: 3, 2: 2, 3: 1, 4: 1})
 stack = []
+result = [-1] * n
