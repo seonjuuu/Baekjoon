@@ -95,3 +95,4 @@ for i in range(n):
     stack.append(i)
 
 for r in result:
+    print(r, end=' ')
