@@ -88,3 +88,5 @@ count = Counter(data) # 변수 마다 개수를 저장
 stack = []
 result = [-1] * n
 stack.append(0)
+
+for i in range(n):
