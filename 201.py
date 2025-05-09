@@ -96,3 +96,4 @@ for i in range(n):
 
 for r in result:
     print(r, end=' ')
+    
