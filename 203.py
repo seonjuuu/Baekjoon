@@ -6,3 +6,4 @@ stack = []
 ans = ''
 
 for i in S:
+    if i.isalpha():
