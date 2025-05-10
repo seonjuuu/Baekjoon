@@ -6,4 +6,4 @@ stack = []
 ans = ''
 
 for i in S:
-    if i.isalpha():
+    if i.isalpha():  #피연산자인 경우 (알파벳으로 가정)
