@@ -11,3 +11,4 @@ for i in S:
     elif i == "(":
         stack.append(i)
     elif i == ")":  # 닫는 괄호 처리
+        while stack and stack[-1] != "(":
