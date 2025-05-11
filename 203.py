@@ -14,4 +14,4 @@ for i in S:
         while stack and stack[-1] != "(":
             ans += stack.pop()
         stack.pop()  # 여는 괄호 제거
-    else:
+    else:  # 연산자인 경우
