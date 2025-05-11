@@ -9,3 +9,4 @@ for i in S:
     if i.isalpha():  #피연산자인 경우 (알파벳으로 가정)
         ans = ans+i
     elif i == "(":
+        stack.append(i)
