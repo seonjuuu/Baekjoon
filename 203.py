@@ -10,4 +10,4 @@ for i in S:
         ans = ans+i
     elif i == "(":
         stack.append(i)
-    elif i == ")":
+    elif i == ")":  # 닫는 괄호 처리
