@@ -10,3 +10,4 @@ for i in S:
         ans = ans+i
     elif i == "(":
         stack.append(i)
+    elif i == ")":
