@@ -15,3 +15,4 @@ for i in S:
             ans += stack.pop()
         stack.pop()  # 여는 괄호 제거
     else:  # 연산자인 경우
+        while stack and num[i] <= num[stack[-1]]:
