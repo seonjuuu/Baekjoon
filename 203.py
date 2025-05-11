@@ -13,3 +13,4 @@ for i in S:
     elif i == ")":  # 닫는 괄호 처리
         while stack and stack[-1] != "(":
             ans += stack.pop()
+        stack.pop()
