@@ -19,3 +19,4 @@ for i in S:
             ans += stack.pop()
         stack.append(i)  # 현재 연산자 스택에 추가
 # 스택에 남은 연산자를 결과에 추가
+while stack:
