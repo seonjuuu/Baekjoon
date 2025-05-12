@@ -18,3 +18,4 @@ for i in S:
         while stack and num[i] <= num[stack[-1]]:  # 우선순위 비교
             ans += stack.pop()
         stack.append(i)  # 현재 연산자 스택에 추가
+# 스택에 남은 연산자를 결과에 추가
