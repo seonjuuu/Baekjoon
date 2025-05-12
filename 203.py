@@ -17,4 +17,4 @@ for i in S:
     else:  # 연산자인 경우
         while stack and num[i] <= num[stack[-1]]:  # 우선순위 비교
             ans += stack.pop()
-            stack.append(i)
+        stack.append(i)
