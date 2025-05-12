@@ -16,3 +16,4 @@ for i in S:
         stack.pop()  # 여는 괄호 제거
     else:  # 연산자인 경우
         while stack and num[i] <= num[stack[-1]]:  # 우선순위 비교
+            ans += stack.pop()
