@@ -21,3 +21,4 @@ for i in S:
 # 스택에 남은 연산자를 결과에 추가
 while stack:
     ans += stack.pop()        
+    print(ans)
