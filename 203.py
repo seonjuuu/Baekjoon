@@ -36,3 +36,4 @@ for i in range(N):
 
 for i in S:
     if i.isalpha():
+        stack.append(num[ord(i)-65])
