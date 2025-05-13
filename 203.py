@@ -38,3 +38,4 @@ for i in S:
     if i.isalpha():
         stack.append(num[ord(i)-65]) # A = [0] # 알파벳 형태가 아닌 피연산자값의 형태
     else:
+        str2 = stack.pop()
