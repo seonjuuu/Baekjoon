@@ -32,3 +32,4 @@ S = input()
 stack = []
 num = []
 for i in range(N):
+    num.append(int(input()))
