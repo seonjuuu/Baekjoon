@@ -42,3 +42,4 @@ for i in S:
         str1 = stack.pop()
 
         # 계산한 값을 다시 스택에 넣어줌 !!
+        if i == "+": 
