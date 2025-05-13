@@ -28,3 +28,4 @@ print(ans)
 #핵심 -> 아스키코드 이용(바로 계산) / 결과값을 다시 append
 
 N = int(input())
+S = input()
