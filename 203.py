@@ -22,3 +22,6 @@ for i in S:
 while stack:
     ans += stack.pop()        
 print(ans)
+
+
+#2
