@@ -40,3 +40,5 @@ for i in S:
     else:
         str2 = stack.pop()
         str1 = stack.pop()
+
+        # 계산한 값을 다시 스택에 넣어줌 !!
