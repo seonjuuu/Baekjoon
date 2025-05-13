@@ -44,3 +44,4 @@ for i in S:
         # 계산한 값을 다시 스택에 넣어줌 !!
         if i == "+": 
             stack.append(str1+str2)
+        elif i == "-":
