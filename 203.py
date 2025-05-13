@@ -29,3 +29,4 @@ print(ans)
 
 N = int(input())
 S = input()
+stack = []
