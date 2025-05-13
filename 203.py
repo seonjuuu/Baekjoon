@@ -33,3 +33,5 @@ stack = []
 num = []
 for i in range(N):
     num.append(int(input()))
+
+for i in S:
