@@ -31,3 +31,4 @@ N = int(input())
 S = input()
 stack = []
 num = []
+for i in range(N):
