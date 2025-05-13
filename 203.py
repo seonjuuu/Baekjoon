@@ -35,3 +35,4 @@ for i in range(N):
     num.append(int(input()))
 
 for i in S:
+    if i.isalpha():
