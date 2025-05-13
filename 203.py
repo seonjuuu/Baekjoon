@@ -45,3 +45,4 @@ for i in S:
         if i == "+": 
             stack.append(str1+str2)
         elif i == "-":
+            stack.append(str1-str2)
