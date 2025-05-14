@@ -58,3 +58,5 @@ S = input()
 result = [0] * 26
 for i in S:
     result[ord(i)-97] += 1  # 소문자 a = 97
+
+print(*result)
