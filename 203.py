@@ -62,3 +62,4 @@ for i in S:
 print(*result)  # 리스트를 공백으로 구분하여 출력
 
 #4
+# 다른 방법 : C = 'abcdefghijklmnopqrstuvwxyz'
