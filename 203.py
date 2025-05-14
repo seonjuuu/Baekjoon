@@ -57,3 +57,4 @@ print('%.2f' % stack[-1])  # 소수점 둘째 자리까지 # 결과값은 스택
 S = input()
 result = [0] * 26
 for i in S:
+    result[ord(i)-97] += 1
