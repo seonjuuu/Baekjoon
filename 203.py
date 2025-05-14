@@ -51,4 +51,4 @@ for i in S:
         elif i == "/":
             stack.append(str1/str2)
 
-print('%.2f' % stack[-1])
+print('%.2f' % stack[-1])  # 소수점 둘째 자리까지 # 결과값은 스택에 남아있음 !!
