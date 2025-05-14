@@ -59,4 +59,4 @@ result = [0] * 26
 for i in S:
     result[ord(i)-97] += 1  # 소문자 a = 97
 
-print(*result)
+print(*result)  # 리스트를 공백으로 구분하여 출력
