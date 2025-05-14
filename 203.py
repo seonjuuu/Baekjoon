@@ -50,3 +50,5 @@ for i in S:
             stack.append(str1*str2)
         elif i == "/":
             stack.append(str1/str2)
+
+print('%.2f' % stack[-1])
