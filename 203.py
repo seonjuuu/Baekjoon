@@ -49,3 +49,4 @@ for i in S:
         elif i == "*":
             stack.append(str1*str2)
         elif i == "/":
+            stack.append(str1/str2)
