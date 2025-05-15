@@ -75,4 +75,4 @@ print(*result)
 #무한루프를 멈춰줄 코드 필요 -> if not text
 import sys
 while True:
-    text = sys.stdin.readline().rstrip('\n')
+    text = sys.stdin.readline().rstrip('\n') # rstrip('\n') = 줄바꿈 문자 제거
