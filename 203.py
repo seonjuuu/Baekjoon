@@ -77,4 +77,4 @@ import sys
 while True:
     text = sys.stdin.readline().rstrip('\n') # rstrip('\n') = 줄바꿈 문자 제거
 
-if not text:
+if not text:  # 아무것도 입력되지 않았을 때는 text이 아무것도 아니기에 if not 구문에서 걸러진다.
