@@ -66,3 +66,4 @@ print(*result)  # 리스트를 공백으로 구분하여 출력
 S = input()
 result = [-1]*26   
 for i in range(len(S)):
+    if result[ord(S[i])-97] == -1:
