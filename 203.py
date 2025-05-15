@@ -71,3 +71,4 @@ for i in range(len(S)):
 print(*result)
 
 #5
+#문제 -> n이 주어지지 x -> 무한루프
