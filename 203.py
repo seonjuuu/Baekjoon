@@ -76,3 +76,5 @@ print(*result)
 import sys
 while True:
     text = sys.stdin.readline().rstrip('\n') # rstrip('\n') = 줄바꿈 문자 제거
+
+if not text:
