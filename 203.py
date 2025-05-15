@@ -74,3 +74,4 @@ print(*result)
 #문제 -> n이 주어지지 x -> 무한루프
 #무한루프를 멈춰줄 코드 필요 -> if not text
 import sys
+while True:
