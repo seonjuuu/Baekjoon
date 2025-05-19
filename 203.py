@@ -80,3 +80,5 @@ while True:
     if not text:  # 아무것도 입력되지 않았을 때는 text이 아무것도 아니기에 if not 구문에서 걸러진다.
         break
 
+    # 소문자, 대문자, 숫자, 공백
+
