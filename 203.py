@@ -82,4 +82,5 @@ while True:
 
     # 소문자, 대문자, 숫자, 공백
     l, u, d, s = 0, 0, 0, 0
+    for i in text:
 
