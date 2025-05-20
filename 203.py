@@ -84,4 +84,5 @@ while True:
     l, u, d, s = 0, 0, 0, 0
     for i in text:
         if i.islower():  # 소문자 확인함수
+            l += 1
 
