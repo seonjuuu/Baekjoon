@@ -90,4 +90,5 @@ while True:
         elif i.isdigit():  # 숫자 확인함수
             d += 1
         elif i.isspace():  # 공벡 확인함수
+            s += 1
 
