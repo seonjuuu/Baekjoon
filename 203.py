@@ -89,4 +89,5 @@ while True:
             u += 1
         elif i.isdigit():  # 숫자 확인함수
             d += 1
+        elif i.isspace():
 
