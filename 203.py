@@ -87,4 +87,5 @@ while True:
             l += 1
         elif i.isupper():  # 대문자 확인함수
             u += 1
+        elif i.isdigit():
 
