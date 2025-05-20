@@ -92,3 +92,5 @@ while True:
         elif i.isspace():  # 공벡 확인함수
             s += 1
 
+    print(l, u, d, s)
+
