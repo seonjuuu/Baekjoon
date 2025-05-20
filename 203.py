@@ -85,5 +85,5 @@ while True:
     for i in text:
         if i.islower():  # 소문자 확인함수
             l += 1
-        elif i.isupper():
+        elif i.isupper():  # 대문자 확인함수
 
