@@ -95,4 +95,5 @@ while True:
     print(l, u, d, s)
 
 # 코드2 -> 아스키코드 이용
+import sys 
 
