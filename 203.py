@@ -103,4 +103,5 @@ while True :
         break
 
     lower, upper, num, blank = 0,0,0,0
+    for i in text :
 
