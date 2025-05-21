@@ -97,4 +97,5 @@ while True:
 # 코드2 -> 아스키코드 이용
 import sys 
 while True :
+    text = sys.stdin.readline().rstrip("\n")
 
