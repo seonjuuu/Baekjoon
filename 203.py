@@ -98,4 +98,5 @@ while True:
 import sys 
 while True :
     text = sys.stdin.readline().rstrip("\n")
+    if not text:
 
