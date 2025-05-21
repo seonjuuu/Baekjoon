@@ -105,4 +105,5 @@ while True :
     lower, upper, num, blank = 0,0,0,0
     for i in text :
         if i == " " :
+            blank += 1
 
