@@ -102,3 +102,5 @@ while True :
     if not text:
         break
 
+    lower, upper, num, blank = 0,0,0,0
+
