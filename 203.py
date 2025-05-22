@@ -118,3 +118,5 @@ while True :
 S = input()
 print(len(S))
 
+#7
+
