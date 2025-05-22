@@ -106,4 +106,5 @@ while True :
     for i in text :
         if i == " " :
             blank += 1
+        elif 65 <= ord(i) <= 90 :
 
