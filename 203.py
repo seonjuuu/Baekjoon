@@ -114,3 +114,5 @@ while True :
             num += 1
     print(lower,upper,num,blank)       
 
+#6
+
