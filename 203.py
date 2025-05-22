@@ -116,4 +116,5 @@ while True :
 
 #6
 S = input()
+print(len(S))
 
