@@ -112,5 +112,5 @@ while True :
             lower += 1
         else :
             num += 1
-        print(lower,upper,num,blank)       
+    print(lower,upper,num,blank)       
 
