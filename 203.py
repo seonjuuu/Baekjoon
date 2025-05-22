@@ -121,4 +121,5 @@ print(len(S))
 #7
 text = input()
 ans = ''
+for i in text:
 
