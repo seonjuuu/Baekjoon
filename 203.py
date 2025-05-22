@@ -111,4 +111,5 @@ while True :
         elif 97 <= ord(i) <= 122 :
             lower += 1
         else :
+            num += 1
 
