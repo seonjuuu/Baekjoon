@@ -107,4 +107,5 @@ while True :
         if i == " " :
             blank += 1
         elif 65 <= ord(i) <= 90 :
+            upper += 1
 
