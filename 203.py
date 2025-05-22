@@ -119,4 +119,5 @@ S = input()
 print(len(S))
 
 #7
+text = input()
 
