@@ -115,4 +115,5 @@ while True :
     print(lower,upper,num,blank)       
 
 #6
+S = input()
 
