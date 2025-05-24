@@ -122,4 +122,5 @@ print(len(S))
 text = input()
 ans = ''
 for i in text:
+    if i.isupper():
 
