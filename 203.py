@@ -128,4 +128,5 @@ for i in text:
         ans += chr((ord(i) - 97 + 13) % 26 + 97)
     else:  # 알파벳이 아닌 문자
         ans += i
+print(ans)
 
