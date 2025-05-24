@@ -127,4 +127,5 @@ for i in text:
     elif i.islower():  # 소문자
         ans += chr((ord(i) - 97 + 13) % 26 + 97)
     else:  # 알파벳이 아닌 문자
+        ans += i
 
