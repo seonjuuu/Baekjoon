@@ -123,4 +123,5 @@ text = input()
 ans = ''
 for i in text:
     if i.isupper():  # 대문자
+        ans += chr((ord(i) - 65 + 13) % 26 + 65)
 
