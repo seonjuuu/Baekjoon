@@ -126,4 +126,5 @@ for i in text:
         ans += chr((ord(i) - 65 + 13) % 26 + 65)
     elif i.islower():  # 소문자
         ans += chr((ord(i) - 97 + 13) % 26 + 97)
+    else:
 
