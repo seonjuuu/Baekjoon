@@ -124,5 +124,5 @@ ans = ''
 for i in text:
     if i.isupper():  # 대문자
         ans += chr((ord(i) - 65 + 13) % 26 + 65)
-    elif i.islower():
+    elif i.islower():  # 소문자
 
