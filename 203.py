@@ -130,3 +130,5 @@ for i in text:
         ans += i
 print(ans)
 
+#8
+
