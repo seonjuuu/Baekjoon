@@ -131,4 +131,5 @@ for i in text:
 print(ans)
 
 #8
+a, b, c, d = input().split()
 
