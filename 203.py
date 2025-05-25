@@ -135,3 +135,5 @@ a, b, c, d = input().split()  #바로 변수에 대입
 a = a+b  # 문자열의 합
 c = c+d
 print(int(a)+int(c))  #int형으로 바꿔 덧셈
+
+#9
