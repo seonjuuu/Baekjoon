@@ -141,4 +141,5 @@ s = input()
 answer = []
 
 for i in range(len(s)):
-    answer.append(s[i:])
+    answer.append(s[i:])  #s[0:] -> 0번째부터 끝까지, s[1:] -> 1번째부터 끝까지, . . 
+
