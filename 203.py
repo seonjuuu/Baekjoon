@@ -139,4 +139,5 @@ print(int(a)+int(c))  #int형으로 바꿔 덧셈
 #9
 s = input()
 answer = []
+
 for i in range(len(s)):
