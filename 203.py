@@ -146,3 +146,4 @@ for i in range(len(s)):
 answer.sort()
 
 for i in answer:
+    print(i)
