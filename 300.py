@@ -6,3 +6,4 @@ print((A*B)%C)
 print(((A%C)*(B%C))%C)
 
 #2
+# 최대공약수 
