@@ -26,4 +26,4 @@ print(max(tmp) * (a // max(tmp)) * (b // max(tmp)))
 # -> a%b = a -> GCD(a,b)=GCD(b,a)로 자리가 바뀌어 계산됨
 a, b = map(int, input().split())
 
-def gcd(a, b):
+def gcd(a, b):      # 최대공약수
