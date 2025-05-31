@@ -12,3 +12,4 @@ print(((A%C)*(B%C))%C)
 a, b = map(int, input().split())
 
 tmp = []
+for i in range(1, min(a,b) + 1):
