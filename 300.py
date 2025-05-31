@@ -18,3 +18,5 @@ for i in range(1, min(a,b) + 1):
     
 print(max(tmp))
 print(max(tmp) * (a // max(tmp)) * (b // max(tmp)))
+
+#유클리드 호제법(최대공약수)
