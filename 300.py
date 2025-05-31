@@ -17,3 +17,4 @@ for i in range(1, min(a,b) + 1):
         tmp.append(i)
     
 print(max(tmp))
+print(max(tmp) * (a // max(tmp)) * (b // max(tmp)))
