@@ -20,3 +20,4 @@ print(max(tmp))
 print(max(tmp) * (a // max(tmp)) * (b // max(tmp)))
 
 #유클리드 호제법(최대공약수)
+#1. GCD(a,b)=GCD(b,a%b)  = . . . = (최대공약수, 0)
