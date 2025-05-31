@@ -24,3 +24,4 @@ print(max(tmp) * (a // max(tmp)) * (b // max(tmp)))
 #나머지가 0이 될때까지 -> 최대공약수 = b
 #a가 작을 경우도 문제 없음
 # -> a%b = a -> GCD(a,b)=GCD(b,a)로 자리가 바뀌어 계산됨
+a, b = map(int, input().split())
