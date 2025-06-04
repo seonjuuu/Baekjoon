@@ -27,3 +27,4 @@ print(max(tmp) * (a // max(tmp)) * (b // max(tmp)))
 a, b = map(int, input().split())
 
 def gcd(a, b):      # 최대공약수
+    while b != 0:
