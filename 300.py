@@ -32,3 +32,4 @@ def gcd(a, b):      # 최대공약수
     return a
 
 max = gcd(a,b)
+print(max)
