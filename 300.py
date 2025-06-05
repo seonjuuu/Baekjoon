@@ -47,3 +47,4 @@ for i in range(T):
 #4
 N = int(input())
 num = list(map(int,input().split()))
+cnt = 0
