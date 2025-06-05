@@ -50,3 +50,4 @@ num = list(map(int,input().split()))
 cnt = 0
 for i in num :
     result = []
+    for j in range(1,i):
