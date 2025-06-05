@@ -54,3 +54,4 @@ for i in num :
         if i%j == 0 :
             result.append(j)
     if len(result) == 1:
+        cnt += 1
