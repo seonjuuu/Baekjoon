@@ -39,3 +39,4 @@ print((a * b) // max)
 T = int(input())
 for i in range(T):
     A, B = map(int,input().split())
+    n, m = A,B
