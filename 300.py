@@ -41,3 +41,4 @@ for i in range(T):
     A, B = map(int,input().split())
     n, m = A,B
     while(m!=0):
+        n,m = m, n%m   # n = 최대공약수
