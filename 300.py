@@ -53,3 +53,4 @@ for i in num :
     for j in range(1,i):
         if i%j == 0 :
             result.append(j)
+    if len(result) == 1:
