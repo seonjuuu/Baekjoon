@@ -36,3 +36,4 @@ print(max)
 print((a * b) // max)
 
 #3
+T = int(input())
