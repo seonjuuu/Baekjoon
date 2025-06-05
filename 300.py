@@ -43,3 +43,5 @@ for i in range(T):
     while(m!=0):
         n,m = m, n%m   # n = 최대공약수
     print((A*B)//n)   
+
+#4
