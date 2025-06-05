@@ -34,3 +34,5 @@ def gcd(a, b):      # 최대공약수
 max = gcd(a,b)
 print(max)
 print((a * b) // max)
+
+#3
