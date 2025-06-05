@@ -45,3 +45,4 @@ for i in range(T):
     print((A*B)//n)   
 
 #4
+N = int(input())
