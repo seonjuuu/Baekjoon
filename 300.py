@@ -56,3 +56,6 @@ for i in num :
     if len(result) == 1:
         cnt += 1
 print(cnt)
+
+
+#4 - 제곱근 활용
