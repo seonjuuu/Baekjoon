@@ -80,3 +80,13 @@ print(cnt)
 # 따라서, 5로 나눠지는지만 확인해도 된다
 # 즉, 소수 아닌 수 -> 약수들로 나눠지는데
 # 이때, 약수들로 나눠지는지 확인할때, 모든 약수를 확인하는 것이 아니라, 약수들은 쌍을 이루고 있기에, 제곱근을 사용해서 모든 수의 절반만 확인
+M, N = map(int,input().split())
+
+for i in range(M,N+1):
+    if i == 1:
+        continue
+    for j in range(2,int(i**0.5)+1):
+        if i%j == 0 :
+            break
+    else:              # if-else(X) #for-else (O) -> for문에서 break하지 않았을때(소수일때)
+        print(i)
