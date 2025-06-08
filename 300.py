@@ -94,3 +94,4 @@ for i in range(M,N+1):
 
 
 #7 -> 팩토리얼
+N = int(input())
