@@ -95,3 +95,9 @@ for i in range(M,N+1):
 
 #7 -> 팩토리얼
 N = int(input())
+
+def fac(n):
+    if n == 0:
+        return 1
+    f = n*fac(n-1)
+    return f
