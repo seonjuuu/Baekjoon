@@ -74,3 +74,5 @@ for i in num :
         if flag:
             cnt += 1
 print(cnt)
+
+#5 -> 시간초과, 에라토스테네스의 체
