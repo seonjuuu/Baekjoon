@@ -90,3 +90,5 @@ for i in range(M,N+1):
             break
     else:              # if-else(X) #for-else (O) -> for문에서 break하지 않았을때(소수일때)
         print(i)
+
+#7 -> 팩토리얼
