@@ -136,6 +136,7 @@ for i in range(2, int(len(num)**0.5)+1):
         for j in range (2*i, 1000001, i):
             num[j] = False # i의 배수들은 소수가 아니므로 False
 
+while(1):
     N = int(sys.stdin.readline())
     if N==0:
         break
@@ -146,4 +147,4 @@ for i in range(2, int(len(num)**0.5)+1):
             break
     else:  # for-else문 
         print("\"Goldbach\'s conjecture is wrong.\"")     
-        
+     
