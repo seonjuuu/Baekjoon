@@ -135,3 +135,15 @@ for i in range(2, int(len(num)**0.5)+1):
     if num[i] == True:  # i가 소수라면
         for j in range (2*i, 1000001, i):
             num[j] = False # i의 배수들은 소수가 아니므로 False
+
+    N = int(sys.stdin.readline())
+    if N==0:
+        break
+    
+    for i in range(3,N-2,2):
+        if num[i]==True and num[N-i]==True :
+            print(f'{N} = {i} + {N-i}')
+            break
+    else:  # for-else문 
+        print("\"Goldbach\'s conjecture is wrong.\"")     
+        
