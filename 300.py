@@ -115,3 +115,8 @@ def fac(n):
     return f
 
 S = (str(fac(N)))[::-1]
+for i in S:
+    if i=="0":
+        cnt +=1
+    else:
+        break
