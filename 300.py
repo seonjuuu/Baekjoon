@@ -130,3 +130,8 @@ print(cnt)
 
 import sys 
 #소수리스트
+num = [True] * 1000001
+for i in range(2, int(len(num)**0.5)+1):
+    if num[i] == True:  # i가 소수라면
+        for j in range (2*i, 1000001, i):
+            num[j] = False # i의 배수들은 소수가 아니므로 False
