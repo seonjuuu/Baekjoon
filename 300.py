@@ -120,3 +120,5 @@ for i in S:
         cnt +=1
     else:
         break
+    
+print(cnt)
