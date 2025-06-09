@@ -113,3 +113,5 @@ def fac(n):
         return 1
     f = n*fac(n-1)
     return f
+
+S = (str(fac(N)))[::-1]
