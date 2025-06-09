@@ -107,3 +107,9 @@ print(fac(N))
 
 #8
 N = int(input())
+cnt = 0
+def fac(n):
+    if n == 0:
+        return 1
+    f = n*fac(n-1)
+    return f
