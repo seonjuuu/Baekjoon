@@ -106,3 +106,4 @@ print(fac(N))
 
 
 #8
+N = int(input())
