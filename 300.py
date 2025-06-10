@@ -170,3 +170,5 @@ def count_k(n,k): # n!에 포함된 k의 개수 구하기
     return result
 
 two = count_k(n,2) - count_k(n-m,2) - count_k(m,2)
+five = count_k(n,5) - count_k(n-m,5) - count_k(m,5)
+print(min(two, five))  
