@@ -148,3 +148,8 @@ while(1):
     else:  # for-else문 
         print("\"Goldbach\'s conjecture is wrong.\"")     
      
+
+#C
+#팩토리얼 X
+#문제 : 끝자리에 0 -> 10의 거듭제곱 -> 10^1 : 끝자리 0이 1개, 10^2 : 끝자리 0이 2개 . . 10^n : 끝자리 0이 n개
+ 
