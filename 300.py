@@ -159,3 +159,12 @@ while(1):
 
 import sys
 n, m = map(int,input().split())
+
+def count_k(n,k): # n!에 포함된 k의 개수 구하기
+    result = 0    
+    temp = k
+    
+    while temp <= n:
+        result += n // temp
+        temp *= k   # k의 1승, 2승, 3승 . . 
+    return result
